@@ -32,40 +32,40 @@ body {
     border-radius: 50%;
 }
 
-.cube.six, .cube.fourth, .cube.second, .cube.fifth, .cube.third {
+.cube.six, .cube.four, .cube.two, .cube.fife, .cube.thre {
     display: flex;
     justify-content: space-between;
 }
 
-.cube.six .under, .cube.fourth .under {
+.cube.six .under, .cube.four .under {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.cube.second .dot:nth-of-type(2), .cube.third .dot:nth-of-type(2) {
+.cube.two .dot:nth-of-type(2), .cube.thre .dot:nth-of-type(2) {
     align-self: flex-end;
 }
 
-.cube.fifth .under {
+.cube.fife .under {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.cube.fifth .under:nth-of-type(2) {
+.cube.fife .under:nth-of-type(2) {
     justify-content: center;
 }
 
-.cube.third .dot:nth-of-type(2) {
+.cube.thre .dot:nth-of-type(2) {
     align-self: center;
 }
 
-.cube.third .dot:nth-of-type(3) {
+.cube.thre .dot:nth-of-type(3) {
     align-self: flex-end;
 }
 
-.cube.first {
+.cube.one {
     display: flex;
     justify-content: center;
     align-items: center;
